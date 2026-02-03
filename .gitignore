@@ -1,0 +1,64 @@
+# 环境变量文件（包含敏感信息，不要上传！）
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+temp_*
+
+# 数据库文件（如果有）
+*.db
+*.sqlite
+chroma_db/
+
+# 模型文件（如果下载了本地模型）
+models/
+*.bin
+*.safetensors
+
+#
+# 检查文件是否存在
+chatbot_详细注释版.py
+技术解析-面试问答.md
+自建Bot优势总结.md
+GitHub上传指南.md
